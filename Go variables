@@ -18,3 +18,16 @@ func main() {
   // Uncomment this line for a receipt!
   fmt.Println("Purchase of", coolSneakers + niceNecklace, "with 8.875% sales tax", taxCalculation, "equal to", coolSneakers + niceNecklace + taxCalculation)
 }
+
+
+package main
+
+import "fmt"
+
+func main() {
+  animal1 := "cat"
+  animal2 := "dog"
+  
+  // Add your code below:
+  fmt.Printf("Are you a %v or a %v person?", animal1, animal2)
+}
