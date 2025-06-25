@@ -54,3 +54,19 @@ func main() {
   // Edit the following Printf for the THIRD step
   fmt.Printf("Each share of Gopher feed is $%.2f!", stockPrice) 
 }
+
+package main
+
+import "fmt"
+
+func main() {
+  template := "I wish I had a %v."
+  pet := "puppy"
+  
+  var wish string
+  
+  // Add your code below:
+  wish = fmt.Sprintf(template, pet)
+  
+  fmt.Println(wish)
+}
