@@ -84,3 +84,22 @@ func main() {
   
   fmt.Printf("Sure, we can have %v for lunch.", food)
 }
+
+package main
+
+import (
+  "fmt"
+)
+
+func main() {
+  var name string
+  fmt.Print("Enter your name: ")
+  fmt.Scan(&name)
+  fmt.Println("Hello", name)
+  var age int
+  fmt.Print("Enter your age: ")
+  fmt.Scan(&age)
+  fmt.Println("Your age is:", age)
+  newMessage := fmt.Sprintf("Hello %s, you are %d years old.", name, age)
+  fmt.Println(newMessage)
+}
