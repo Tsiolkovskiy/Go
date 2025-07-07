@@ -103,3 +103,14 @@ func main() {
   newMessage := fmt.Sprintf("Hello %s, you are %d years old.", name, age)
   fmt.Println(newMessage)
 }
+
+package main
+
+import "fmt"
+
+func main() {
+	heistReady := false
+  if heistReady{
+    fmt.Println("Let's Go!")
+  }
+}
